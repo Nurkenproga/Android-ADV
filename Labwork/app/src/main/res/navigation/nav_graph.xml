@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.labwork.HomeFragment"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_homeFragment_to_task1Fragment"
+            app:destination="@id/task1Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_task2Fragment"
+            app:destination="@id/task2Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_task3Fragment"
+            app:destination="@id/task3Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_task4Fragment"
+            app:destination="@id/task4Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task1Fragment"
+        android:name="com.example.labwork.ImageShareFragment"
+        android:label="Task 1" />
+
+    <fragment
+        android:id="@+id/task2Fragment"
+        android:name="com.example.labwork.MusicControlFragment"
+        android:label="Task 2" />
+
+    <fragment
+        android:id="@+id/task3Fragment"
+        android:name="com.example.labwork.AirplaneModeFragment"
+        android:label="Task 3" />
+
+    <fragment
+        android:id="@+id/task4Fragment"
+        android:name="com.example.labwork.CalendarEventsFragment"
+        android:label="Task 4" />
+
+</navigation>

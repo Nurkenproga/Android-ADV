@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_home_to_intents" type="id" />
+    <item name="action_home_to_foregroundService" type="id" />
+    <item name="action_home_to_broadcastReceiver" type="id" />
+    <item name="action_home_to_contentProvider" type="id" />
+    <item name="textView_event_title" type="id" />
+    <item name="textView_event_start_time" type="id" />
+    <item name="button_task1" type="id" />
+    <item name="button_task2" type="id" />
+    <item name="button_task3" type="id" />
+    <item name="button_task4" type="id" />
+    <item name="action_homeFragment_to_task1Fragment" type="id" />
+    <item name="action_homeFragment_to_task2Fragment" type="id" />
+    <item name="action_homeFragment_to_task3Fragment" type="id" />
+    <item name="action_homeFragment_to_task4Fragment" type="id" />
+    <item name="button_pick_image" type="id" />
+    <item name="button_start" type="id" />
+    <item name="button_pause" type="id" />
+    <item name="button_stop" type="id" />
+    <item name="textView_airplane_mode_status" type="id" />
+    <item name="recyclerView_calendar_events" type="id" />
+    <item name="recycler_calendar_events" type="id" />
+    <item name="status_airplane_mode" type="id" />
+    <item name="btn_select_image" type="id" />
+    <item name="btn_play" type="id" />
+    <item name="btn_pause" type="id" />
+    <item name="btn_stop" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="recycler_view" type="id" />
+    <item name="textView_status" type="id" />
+    <item name="recyclerView_calendar" type="id" />
+</resources>
